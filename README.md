@@ -44,6 +44,8 @@ python main.py --scope <training_image> --mode sample --dataset_folder ./dataset
     
 ## Harmonization
 ![](imgs/harmonization.png)
+
+
 To harmonize a pasted object into an image, place a naively pasted reference image and the selected mask into `./datasets/<training_image>/i2i/` and run
 ```
 python main.py --scope <training_image> --mode harmonization --harm_mask <mask_name> --input_image <naively_pasted_image> --dataset_folder ./datasets/<training_image>/ --image_name <training_image.png> --load_milestone 12
