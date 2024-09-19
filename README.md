@@ -6,6 +6,18 @@ This code was tested with python 3.8 and torch 1.13.
 
 [download pretrained blip](https://huggingface.co/Rookiehan/BLIP/blob/90e62d0d810aa28a0a88d8afef82f4735c6ae39c/model_base_capfilt_large.pth)
 
+## Repository Structure 
+```
+├── SinDDM - training and inference code   
+├── clip - clip model code
+├── datasets - the images used in the paper
+├── imgs - images used in this repository readme.md file
+├── results - pre-trained models 
+├── text2live_util - code for editing via text, based on text2live code 
+└── main.py - main python file for initiate model training and for model inference
+└── model_base_capfilt_large.pth
+
+
 ![](imgs/gen_examples.png)
 ---
 ## Train
